@@ -1,0 +1,28 @@
+.background-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    transition: all 0.18s ease-in-out;
+  }
+  
+  .band-card:hover .background-image {
+    transform: scale(1.1);
+  }
+  
+  .nav-link {
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+  }
+  
+  .min-100-vh {
+    height: 100vh;
+  }
+  
+  .overlay-bg {
+    opacity: 80%;
+    background-color: $primary;
+  }
+  
+  .aspect-square {
+    aspect-ratio: 1;
+  }

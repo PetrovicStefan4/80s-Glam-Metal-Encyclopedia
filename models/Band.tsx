@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import { Schema, model, models, Model } from "mongoose";
 import paginate from "mongoose-paginate-v2";
-import { IBand } from "../@types/band";
+import IBand from "../@types/band";
 
 const BandSchema = new Schema<IBand>(
   {
